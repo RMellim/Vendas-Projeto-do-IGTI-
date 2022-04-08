@@ -27,7 +27,7 @@ public class Cliente {
 		
 	}
 	
-	Cliente(int id, String nome, String dn) {
+	public Cliente(int id, String nome, String dn) {
 	
 		this.id = id;
 		this.nome = nome;

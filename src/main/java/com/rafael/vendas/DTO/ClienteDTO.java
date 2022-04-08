@@ -14,6 +14,10 @@ public class ClienteDTO {
 	private String nome;
 	private String dn;
 	
+public ClienteDTO() {
+		
+	}
+	
 	public ClienteDTO(Cliente entidade) {
 		
 		this.id = entidade.getId();

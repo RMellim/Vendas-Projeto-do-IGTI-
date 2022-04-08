@@ -29,11 +29,16 @@ public class Compras {
 	public Compras() {
 	
 	}
-	public Compras(int id, Double totalCompra, LocalDate dataCompra) {
+	public Compras(int id, Double totalCompras, LocalDate dataCompra,Cliente cliente) {
 		
 		this.id = id;
 		this.totalCompra = totalCompra;
 		this.dataCompra = dataCompra;
+		this.cliente = cliente;
+	}
+	
+	public Compras(int id) {
+		
 	}
 	public int getId() {
 		return id;
@@ -52,6 +57,12 @@ public class Compras {
 	}
 	public void setDataCompra(LocalDate dataCompra) {
 		this.dataCompra = dataCompra;
+	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 	}
 	
 	
